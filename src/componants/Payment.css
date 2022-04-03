@@ -1,0 +1,104 @@
+.pay{
+    width: 100%;
+    background-color: white;
+}
+.pay-main{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.pay-left{
+    border: 1px solid #d2c8c8;
+    width: 58%;
+    padding: 20px 40px;
+}
+.pay-right{
+    width: 32%;
+}
+.pay-left-head{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.pay-total-div,.pay-card-box{
+    border: 1px solid #d2c8c8;
+}
+.pay-total-div div{
+    display: flex;
+    justify-content: space-between;
+}
+.pay-total-div span{
+    padding: 12px 30px;
+}
+.pay-total-line{
+    border-top: 1px solid #d2c8c8;
+    padding: 0;
+    width: 90%;
+    margin: auto;
+}
+.color{
+    color: #666666;
+}
+.pay-card-box{
+    padding: 30px 100px;
+    margin-top: 30px;
+}
+.pay-card-box label{
+    font-weight: 500;
+    color: #666666;
+    font-size: 15px;
+}
+.pay-card-box input{
+    padding: 10px 15px;
+    font-size: 15px;
+    border: 1px solid #d2c8c8;
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    outline: none;
+}
+.card-number{
+    width: 80%;
+    display: block;
+}
+.valid{
+    display: block;
+}
+.cvv{
+    display: block;
+}
+.card-date,.card-cvv{
+    width: 20%;
+}
+.card-pay-btn{
+    width: 87%;
+    background: #318616;
+    color: #EEEEEE;
+    font-weight: 500;
+    cursor: pointer;
+}
+.pay-right-pro{
+    display: flex;
+    border: 1px solid #d2c8c8;
+    border-top: 0;
+}
+.pay-right-head{
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #f6f4f4;
+    border: 1px solid #d2c8c8;
+}
+.pay-item-img{
+    width: 25%;
+    padding: 10px 0 0 10px;
+}
+.pay-item-details{
+    padding: 15px 0 0 10px;
+}
+.item-det-head{
+    padding-bottom: 20px;
+    color: #666666;
+}
